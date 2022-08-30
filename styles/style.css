@@ -7,6 +7,12 @@
     font-family: 'open sans';
 }
 
+img {
+    width: 10%;
+    height: 70vh;
+    align-self: center;
+}
+
 .animate-character
 {
    text-transform: uppercase;
