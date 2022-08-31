@@ -224,7 +224,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     nav {
         display: none;
     }
@@ -235,11 +235,11 @@ a {
     }
 
     .header { 
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .headerP {
-        padding-top: 20%;
+        padding-top: 10%;
         font-size: 0.8rem;
     }
 
