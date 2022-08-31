@@ -5,12 +5,8 @@
     list-style: none;
     color: #051747;
     font-family: 'open sans';
-}
-
-img {
-    width: 10%;
-    height: 70vh;
-    align-self: center;
+    /* font-size: 1rem; */
+    transition: all 500ms linear ease-in-out;
 }
 
 .animate-character
@@ -43,64 +39,6 @@ img {
     background-position: -200% center;
   }
 }
-
-.container {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.jad {
-  font-family: 'open sans';
-  color: #000;
-  font-size: 2rem;
-  text-shadow: 0 0 1vw #000;
-}
-
-.assaf {
-  font-family: 'open sans';
-  color: #000;
-  font-size: 2rem;
-  text-shadow: 0 0 1vw #000;
-}
-
-.jad {
-  animation: jad 3s ease infinite;
-  -moz-animation: jad 3s ease infinite;
-  -webkit-animation: jad 3s ease infinite;
-}
-
-@keyframes jad {
-  0%,
-  100% {
-      text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-      color: #051747;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-    color: #05174700;
-  }
-}
-
-.assaf {
-  animation: assaf 4s linear infinite;
-  -moz-animation: assaf 4s linear infinite;
-  -webkit-animation: assaf 4s linear infinite;
-  -o-animation: assaf 4s linear infinite;
-}
-
-@keyframes assaf {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-    color: #051747;
-  }
-  50% {
-      text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-      color: #05174700;
-  }
-}
-  
 
 nav {
     display: flex;
@@ -169,8 +107,7 @@ nav button {
 }
 
 .headerB {
-    width: 150px;
-    height: 50px;
+    padding: 10px;
     background-color: #051747;
     color: #E7E9F0;
     border: 0;
@@ -287,7 +224,79 @@ a {
     flex-direction: column;
     justify-content: space-between;
 }
+@media (max-width: 480px) {
+    nav {
+        display: none;
+    }
+    
+    body {
+        /* font-size: 0.5rem; */
+        /* overflow: hidden; */
+    }
 
+    .header { 
+        font-size: 2rem;
+    }
+
+    .headerP {
+        padding-top: 20%;
+        font-size: 0.8rem;
+    }
+
+    .headerB {
+        font-size: 0.7rem;
+    }
+
+    .follow {
+        font-size: 0.8rem;
+    }
+
+    .icons {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem !important;
+    }
+
+    p {
+        font-size: 0.7rem !important;
+    }
+
+    .services button {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 0.7rem !important;
+        margin-top: 10% !important;
+    }
+
+    .servicesRight * {
+        font-size: 1rem !important;
+    }
+
+    .works .browse {
+        font-size: 0.7rem !important;
+        padding: auto !important;
+    }
+
+    .end {
+        padding-bottom: 50px !important;
+    }
+
+    .end button {
+        font-size: 0.8rem !important;
+    }
+
+    .socialsEnd {
+        font-size: 1rem !important;
+    }
+
+    footer p{
+        font-size: 0.4rem !important;
+        padding: 10px !important;
+    }
+
+}
 .hr3 {
     margin-top: 5%;
     margin-bottom: 1%;
@@ -308,8 +317,7 @@ a {
 }
 
 .works .browse {
-    width: 10%;
-    height: 50px;
+    padding: 10px;
     margin-top: 5%;
     margin-left: -10%;
     align-self: center;
@@ -352,8 +360,7 @@ a {
 .end button {
     margin-top: 10%;
     color: #051747;
-    width: 60%;
-    height: 50px;
+    padding: 10px;
     border: 0;
     border-radius: 8px;
     font-size: 1.3rem;
