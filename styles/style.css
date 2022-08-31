@@ -329,7 +329,7 @@ footer p {
     }
 
     .header { 
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
 
     .headerP {
@@ -393,7 +393,7 @@ footer p {
 
 }
 
-@media (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 768px) {
     nav {
         display: none;
     }
@@ -404,47 +404,51 @@ footer p {
     }
 
     .header { 
-        font-size: 1.5rem;
+        font-size: 2rem !important;
     }
 
     .headerP {
-        padding-top: 10%;
-        font-size: 0.8rem;
-    }
-
-    .headerB {
-        font-size: 0.7rem;
-    }
-
-    .follow {
-        font-size: 0.8rem;
-    }
-
-    .icons {
-        font-size: 1rem;
-    }
-
-    h3 {
+        padding-top: 5% !important;
         font-size: 1rem !important;
     }
 
+    .headerB {
+        font-size: 0.8rem !important;
+    }
+
+    .follow {
+        font-size: 1rem !important;
+    }
+
+    .icons {
+        font-size: 1.3rem !important;
+    }
+
+    h3 {
+        font-size: 1.2rem !important;
+    }
+
     p {
-        font-size: 0.7rem !important;
+        font-size: 0.9rem !important;
     }
 
     .services button {
-        width: 50px !important;
-        height: 50px !important;
-        font-size: 0.7rem !important;
+        width: 60px !important;
+        height: 60px !important;
+        font-size: 0.8rem !important;
         margin-top: 10% !important;
     }
 
     .servicesRight * {
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
+    }
+    
+    .works p {
+        font-weight: 600 !important;
     }
 
     .works .browse {
-        font-size: 0.7rem !important;
+        font-size: 0.8rem !important;
         padding: auto !important;
     }
 
@@ -452,17 +456,203 @@ footer p {
         padding-bottom: 50px !important;
     }
 
+    .end h3 {
+        font-size: 1.5rem !important;
+    }
+
     .end button {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
+        margin-left: 4%;
     }
 
     .socialsEnd {
-        font-size: 1rem !important;
+        font-size: 1.4rem !important;
     }
 
     footer p{
-        font-size: 0.4rem !important;
+        font-size: 0.6rem !important;
         padding: 10px !important;
     }
 
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    nav {
+        display: none;
+    }
+    
+    body {
+        /* font-size: 0.5rem; */
+        /* overflow: hidden; */
+    }
+
+    .header { 
+        font-size: 3rem !important;
+    }
+
+    .headerP {
+        padding-top: 5% !important;
+        font-size: 1.5rem !important;
+    }
+
+    .headerB {
+        font-size: 1.1rem !important;
+    }
+
+    .follow {
+        font-size: 1.2rem !important;
+    }
+
+    .icons {
+        font-size: 1.5rem !important;
+    }
+
+    h3 {
+        font-size: 2rem !important;
+    }
+
+    p {
+        font-size: 1.1rem !important;
+    }
+
+    .services button {
+        width: 90px !important;
+        height: 90px !important;
+        font-size: 1.2rem !important;
+        margin-top: 15% !important;
+    }
+
+    .servicesRight * {
+        font-size: 1.6rem !important;
+    }
+
+    .servicesRight {
+        margin-top: 5%;
+    }
+    
+    .works p {
+        font-weight: 600 !important;
+    }
+
+    .works .browse {
+        font-size: 1.1rem !important;
+        padding: auto !important;
+    }
+
+    .end {
+        padding-bottom: 50px !important;
+    }
+
+    .end h3 {
+        font-size: 2rem !important;
+    }
+
+    .end button {
+        font-size: 1.2rem !important;
+        margin-left: 4%;
+    }
+
+    .socialsEnd {
+        font-size: 1.6rem !important;
+    }
+
+    footer p{
+        font-size: 0.7rem !important;
+        padding: 10px !important;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1100px) {
+    nav {
+        display: none;
+    }
+    
+    body {
+        /* font-size: 0.5rem; */
+        /* overflow: hidden; */
+    }
+
+    .header { 
+        font-size: 3.2rem !important;
+    }
+
+    .headerP {
+        padding-top: 10% !important;
+        font-size: 1.6rem !important;
+    }
+
+    .headerB {
+        font-size: 1.2rem !important;
+    }
+
+    .follow {
+        font-size: 1.3rem !important;
+    }
+
+    .icons {
+        font-size: 1.7rem !important;
+    }
+
+    h3 {
+        font-size: 2.3rem !important;
+    }
+
+    p {
+        font-size: 1.3rem !important;
+    }
+
+    .services button {
+        width: 90px !important;
+        height: 90px !important;
+        font-size: 1.2rem !important;
+        margin-top: 15% !important;
+    }
+
+    .servicesRight * {
+        font-size: 1.7rem !important;
+    }
+
+    .servicesRight {
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    
+    .works p {
+        font-weight: 600 !important;
+    }
+
+    .works .browse {
+        font-size: 1.2rem !important;
+        padding: auto !important;
+    }
+
+    .end {
+        padding-bottom: 50px !important;
+    }
+
+    .end h3 {
+        font-size: 2.2rem !important;
+    }
+
+    .end button {
+        font-size: 1.2rem !important;
+        margin-left: 4%;
+    }
+
+    .socialsEnd {
+        font-size: 1.6rem !important;
+    }
+
+    footer p{
+        font-size: 0.7rem !important;
+        padding: 10px !important;
+    }
+
+}
+
+@media (min-width: 1101px) and (max-width: 1350px) {
+    .headerP {
+        margin-top: 20% !important;
+    }
 }
