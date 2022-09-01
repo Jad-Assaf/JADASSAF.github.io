@@ -9,6 +9,10 @@
     transition: all 500ms linear ease-in-out;
 }
 
+body {
+    background-color: #E7E9F0;
+}
+
 .animate-character
 {
    text-transform: uppercase;
@@ -96,7 +100,8 @@ nav button {
 
 .h1div {
     padding-bottom: 50px;
-    position:absolute
+    height: 10vh;
+    /* position:absolute */
 }
 
 .headerP {
@@ -328,62 +333,141 @@ footer p {
         /* overflow: hidden; */
     }
 
+    .hr {
+        /* margin-top: -15% !important; */
+        display: none;
+    }
+
+    .head {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .header { 
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
+        height: 10vh !important;
+        align-self: center;
     }
 
     .headerP {
-        padding-top: 10%;
-        font-size: 0.8rem;
+        font-size: 1rem !important;
+        height: 10vh !important;
+        align-self: center;
+        margin-left: -10% !important;
     }
 
     .headerB {
         font-size: 0.7rem;
+        height: 5vh !important;
+        margin-left: -10% !important;
+        padding: 10px 40vw 10px 40vw !important;
+        align-self: center;
     }
 
     .follow {
-        font-size: 0.8rem;
+        font-size: 1rem !important;
+        height: 5vh !important;
+        align-self: center;
+        margin-left: -10%;
+    }
+
+    .head div{
+        align-self: center !important;
+        margin-left: -10% !important;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
     }
 
     .icons {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        height: 9vh !important;
+    }
+
+    .services {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -10% !important;
+    }
+
+    .hr2 {
+        display: none;
     }
 
     h3 {
-        font-size: 1rem !important;
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    h3:first-of-type {
+        margin-top: 30% !important;
+        margin-bottom: 30% !important;
+    }
+
+    .removeBr {
+        display: none;
     }
 
     p {
-        font-size: 0.7rem !important;
+        font-size: 1rem !important;
+        text-align: center;
     }
 
     .services button {
-        width: 50px !important;
-        height: 50px !important;
-        font-size: 0.7rem !important;
-        margin-top: 10% !important;
+        display: none;
     }
 
     .servicesRight * {
-        font-size: 1rem ;
-        margin-left: 10%;
+        font-size: 1.7rem ;
+        text-align: center;
+    }
+
+    .servicesRight {
+        margin-bottom: 30% !important;
+        margin-left: 20% !important;
+    }
+
+    .hr3 {
+        display: none;
+    }
+
+    .works {
+        height: 100vh;
+        margin-left: 0 !important;
     }
 
     .works .browse {
         font-size: 0.7rem !important;
-        padding: auto !important;
+        padding: 10px 40vw 10px 40vw !important;
+        align-self: center;
+        margin-left: 2% !important;
     }
 
     .end {
-        padding-bottom: 50px !important;
+        height: 100vh;
     }
 
     .end button {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
+        margin-top: -20% !important;
     }
 
     .socialsEnd {
-        font-size: 1rem !important;
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem !important;
+        margin-left: 5% !important;
+        margin-top: 30% !important;
+    }
+
+    .socialsEnd li {
+        margin-bottom: 10% !important;
     }
 
     footer p{
@@ -654,5 +738,9 @@ footer p {
 @media (min-width: 1101px) and (max-width: 1350px) {
     .headerP {
         margin-top: 20% !important;
+    }
+
+    h4 {
+        font-size: 2rem !important;
     }
 }
